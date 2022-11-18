@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="UTF-8">
+            <title>Olicafe</title> 
+</head>
+<body>
+  <div class="container">
+  </div>
+  <a href="index.html"> <img src="./photos/olilogo.png"  width="150" height="75" alt="logo" class="logo" style="text-align: center;"></a> <br>
+
+<div class="topnav" id="myTopnav" style="height:30%;">
+  
+  
+    
+ 
+ <a href="contacto.html">Contacto</a>
+   <a href="reservas.html">Reservas</a>
+ <a href="menu.html">Menu</a>
+ <a href="sobrenosotros.html">Sobre Nosotros</a>
+    <a href="index.html">Home</a>
+ 
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<!-- Barra de Navegación responsiva --> 
+
+
+  <section id="reserve">
+    <div class="reserve-container">
+      
+      <div class="reserve-header">
+        <div class="container">
+          <h4 style="margin-bottom: 2cm;"> HACÉ TU RESERVA  </h4> <br><br>
+        </div>
+      </div>
+      
+      <br><br><div class="reserve-form-container">
+        <div class="container">
+          <form action="graciasporcomunicarse.html" id="reserve-form">
+            <div class="row">
+              
+              <div class="form-group">
+                <label for="">Cantidad de comensales</label>
+                <select name="" id="" class="form-control">
+                  <option value="1">
+                    1 
+                  </option>
+                  <option value="2">
+                    2 
+                  </option>
+                  <option value="3">
+                    3 
+                  </option>
+                  <option value="4">
+                    4
+                  </option>
+                  <option value="5">
+                    5 
+                  </option>
+                  <option value="6">
+                    6 
+                  </option>
+                  <option value="7">
+                    7 
+                  </option>
+                  <option value="8">
+                    8 
+                  </option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="">Fecha</label>
+                <input type="date" class="form-control">
+              </div>
+              
+              <div class="form-group">
+                <label for="">Hora</label>
+                <input type="time" class="form-control">
+              </div>
+              
+              <div class="form-group">
+                <label for="">Nombre</label>
+                <input type="text" class="form-control" placeholder="Nombre completo">
+              </div>
+              
+              <div class="form-group">
+                <label for="">Email</label>
+                <input type="email" class="form-control" placeholder="Dirección de correo electrónico">
+              </div>
+              
+              <div class="form-group">
+                <label for="">Teléfono</label>
+                <input type="tel" class="form-control" placeholder="Ej:+5491153245902">
+              </div>
+              
+              <div class="form-group submit-container">
+                <button type="submit">
+                  Confirmar
+                </button>
+              </div>
+              
+            </div>
+          </form>          
+        </div>
+      </div>
+      
+      <div class="reserve-image-container">
+        
+      </div>
+      
+    </div>
+  </section>
+
+
+<!--::::Pie de Pagina::::::-->
+<br><footer class="pie-pagina">
+  <div class="grupo-1">
+      <div class="box">
+          <figure>
+              <a href="#">
+                  <img src="./photos/logo.png" alt="Logo de Oli">
+              </a>
+          </figure>
+      </div>
+      <div class="box">
+          <br> <h2>INFORMACIÓN</h2>
+          <p>Ubicación: Costa Rica 6020, C1414 CABA</p>
+          <p>Contacto: 011 5099-7146</p>
+      </div>
+      <div class="box">
+         <br> <h2>SEGUINOS EN INSTAGRAM!</h2>
+          <div class="red-social">
+            <a href="https://www.instagram.com/olicafe__/"> @olicafe</a></li>
+          </div>
+      </div>
+  </div>
+</footer>
+
+</body>
+
+
+</html>
