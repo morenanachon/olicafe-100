@@ -59,7 +59,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #E9A9C4;
+  color: #04AA6D;
 }
 
 nav a::before {
@@ -101,7 +101,7 @@ nav a:hover::before {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: none;
-    color: #E9A9C4;
+    color: #04AA6D;
 }
 
 /* Add an active class to highlight the current page */
